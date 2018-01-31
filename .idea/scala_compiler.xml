@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="core,graphx,unsafe,streaming-kafka-0-8,mllib,assembly,streaming-kafka-0-8-assembly,streaming-flume,tools,mllib-local,network-shuffle,streaming-flume-sink,sql-kafka-0-10,launcher,streaming-kafka-0-10,hive,streaming-flume-assembly,tags,network-common,streaming-kafka-0-10-assembly,catalyst,repl,spark,streaming,java8-tests,examples,sql,sketch">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+    </profile>
+    <profile name="sbt 1" modules="spark-2-1-0,oldDeps" />
+    <profile name="sbt 10" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\examples\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 11" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\flume\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 12" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\flume-assembly\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 13" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\flume-sink\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 14" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\java8-tests\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 15" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\kafka-0-10\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 16" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\kafka-0-10-assembly\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 17" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\kafka-0-10-sql\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 18" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\kafka-0-8\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 19" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\external\kafka-0-8-assembly\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 20" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\graphx\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 21" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\launcher\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 22" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\mllib\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 23" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\mllib-local\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 24" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\repl\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 25" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\sql\catalyst\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 26" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\sql\core\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 27" modules="">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\sql\hive\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 28" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\streaming\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 29" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\tools\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\assembly\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\common\network-common\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\common\network-shuffle\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 6" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\common\sketch\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 7" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\common\tags\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 8" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\common\unsafe\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 9" modules="">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=D:\spark-2.1.0\core\target\java" />
+        <parameter value="-P:genjavadoc:strictVisibility=true" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-sourcepath" />
+        <parameter value="D:\spark-2.1.0" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\peter\.ivy2\cache\com.typesafe.genjavadoc\genjavadoc-plugin_2.11.8\jars\genjavadoc-plugin_2.11.8-0.10.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
